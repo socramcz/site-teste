@@ -1,0 +1,102 @@
+/* REGRAS GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=League+Gothic&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* LOGO NAV */
+.logo {
+    width: 160px;
+}
+
+/* REGRAS NAV */
+#nav {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,193,19,1) 100%);
+    /*Sequencia box-shadow: superior, inferior, profundidade e intensidade*/
+    box-shadow: 2px 2px 2px 2px #cdcdcd;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+}
+
+#navbarNav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbarNav ul li a:hover {
+    color: #000;
+    background: #fff;
+    border-radius: 20%;
+}
+
+/* AJUSTES IMAGEM DO CARROSEL */
+#imgBanner {
+    height: 500px;
+}
+
+/* SEÇÃO QUEM SOMOS */
+#mainQuemSomos {
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Fonte do texto sobre a empresa */
+#textSobre {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 25%;
+    padding-top: 50px;
+}
+
+#imgSobre {
+    margin-left: 25%;
+}
+
+.main-title {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.destaque-texto {
+    color: #3498db;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.destaque {
+    font-size: 16px;
+    color: #000;
+    padding: 15px;
+    padding-top: 10px;
+}
+
+.icones {
+    color: #3498db;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.bt-enviar{
+    margin-top: 10px;
+}
+
+.logo_footer{
+    height: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#footer{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,193,19,1) 100%);
+    margin-top: 50px;
+}
+.img-fluid{
+    filter: drop-shadow(0 0 3px #000)
+}
